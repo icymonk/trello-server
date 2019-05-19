@@ -1,0 +1,47 @@
+{
+  "name": "trello-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "NODE_ENV=development node app.js",
+    "start": "NODE_ENV=production node app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.16.4",
+    "express-mysql-session": "^2.1.0",
+    "express-session": "^1.16.1",
+    "helmet": "^3.18.0",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.1",
+    "mysql2": "^1.6.5",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "sequelize": "^5.8.6"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icymonk/trello-server.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/icymonk/trello-server/issues"
+  },
+  "homepage": "https://github.com/icymonk/trello-server#readme",
+  "prettier": {
+    "printWidth": 80,
+    "useTabs": false,
+    "tabWidth": 2,
+    "bracketSpacing": true,
+    "semi": false,
+    "trailingComma": "all"
+  }
+}

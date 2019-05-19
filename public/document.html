@@ -1,0 +1,68 @@
+<style>
+  button {
+    outline: none;
+    background: transparent;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  .container {
+    padding: 16px 10vw;
+  }
+
+  .pre {
+    border-radius: 8px;
+    background: black;
+    color: white;
+    line-height: 24px;
+    font-size: 16px;
+  }
+
+  @media (min-width: 780px) {
+    .container {
+      padding: 16px 20vw;
+    }
+  }
+</style>
+
+<div class="container">
+  <h1>API Document</h1>
+  <br />
+
+  <h2>&lt; 이미지 가져오기 &gt;</h2>
+  <h3><span style="color: skyblue">GET</span> /image/:userId/:fileName</h3>
+
+  <h4>Query</h4>
+  <ul>
+    <li>width: optional</li>
+    <li>height: optional</li>
+  </ul>
+  <pre class="pre">
+    <code class="code">
+    </code>
+  </pre>
+  <br />
+  <hr />
+  <br />
+
+  <h2>&lt; 이미지 업로드 &gt;</h2>
+  <h3><span style="color: green">POST</span> /image/upload/:userId</h3>
+
+  <h4>Form Data</h4>
+  <ul>
+    <li>xfile: file</li>
+  </ul>
+  <pre class="pre">
+    <code class="code">
+    </code>
+  </pre>
+  <h4>Response data</h4>
+  <pre class="pre">
+    <code class="code">
+    </code>
+  </pre>
+</div>
