@@ -1,6 +1,7 @@
 const router = require("express").Router()
 const passport = require("passport")
 const jwt = require("jsonwebtoken")
+const { User } = require("../models")
 
 router.post("/register", async (req, res, next) => {
   try {
@@ -15,7 +16,7 @@ router.post("/register", async (req, res, next) => {
   }
 })
 
-router.post("/login", function(req, res, next) {
+router.post("/login", function (req, res, next) {
   passport.authenticate("local", { session: false }, (err, user, info) => {
     console.log(err)
     if (err || !user) {
