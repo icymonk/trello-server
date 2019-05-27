@@ -25,10 +25,12 @@ npm run start
 ## Request
 
 - 회원가입, 로그인을 제외한 모든 요청에 Access Token 포함 필수
+
   - Headers
-    | key | value | required |
-    |:---:|:---:|:---:|
-    | Authorization | token | O |
+
+    |      key      | value | required |
+    | :-----------: | :---: | :------: |
+    | Authorization | token |    O     |
 
 ## Auth
 
