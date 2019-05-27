@@ -27,7 +27,7 @@ npm run start
 - 회원가입, 로그인을 제외한 모든 요청에 Access Token 포함 필수
   - Headers
     | key | value | required |
-    |---|---|---|
+    | --- | --- | --- |
     | Authorization | token | O |
 
 ## Auth
@@ -36,7 +36,7 @@ npm run start
 
   - Params
     | name | type | required |
-    |---|---|---|
+    | --- | --- | --- |
     | name | VARCHAR(255) | |
     | email | VARCHAR(255) | O |
     | password | VARCHAR(255) | O |
@@ -78,7 +78,7 @@ npm run start
 
   - Params
     | name | type | required |
-    |---|---|---|
+    | --- | --- | --- |
     | email | VARCHAR(255) | O |
     | password | VARCHAR(255) | O |
 
@@ -415,7 +415,7 @@ npm run start
 
 - Params
   | name | type | required | default |
-  |---|---|---|---|
+  | --- | --- | --- | --- |
   | title | VARCHAR(255) | O | |
   | isArchived | TINYINT(1) | | false or 0 |
 
@@ -460,7 +460,7 @@ npm run start
 
   - Params
     | name | type |
-    |---|---|---|
+    | --- | --- | --- |
     | title | VARCHAR(255) |
     | isArchived | TINYINT(1) |
 
