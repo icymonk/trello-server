@@ -29,7 +29,6 @@ npm run start
     | key | value | required |
     |---|---|---|
     | Authorization | token | O |
-    |||||
 
 ## Auth
 
@@ -42,7 +41,6 @@ npm run start
     | email | VARCHAR(255) | O |
     | password | VARCHAR(255) | O |
     | image | VARCHAR(255) | |
-    |||||
 
   - Request
 
@@ -83,7 +81,6 @@ npm run start
     |---|---|---|
     | email | VARCHAR(255) | O |
     | password | VARCHAR(255) | O |
-    |||||
 
   - Request
 
@@ -421,7 +418,6 @@ npm run start
   |---|---|---|---|
   | title | VARCHAR(255) | O | |
   | isArchived | TINYINT(1) | | false or 0 |
-  |||||
 
 - Request
 
@@ -467,7 +463,6 @@ npm run start
     |---|---|---|
     | title | VARCHAR(255) |
     | isArchived | TINYINT(1) |
-    ||||
 
   - Request
 
