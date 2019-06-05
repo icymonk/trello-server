@@ -137,7 +137,7 @@ npm run start
 - Request
 
   ```js
-  axios.get("/logout", {
+  axios.get("/auth/logout", {
     headers: {
       Authorization: "$TOKEN",
     },
@@ -147,7 +147,7 @@ npm run start
 
   axios({
     method: "GET",
-    url: "/logout",
+    url: "/auth/logout",
     headers: {
       Authorization: "$TOKEN",
     },
