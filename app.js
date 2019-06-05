@@ -35,7 +35,7 @@ app.get("/", (req, res) =>
   res.sendFile(path.join(__dirname, "public", "document.html")),
 )
 
-app.post("/register", async (req, res, next) => {
+app.post("/auth/register", async (req, res, next) => {
   try {
     if (!req.body.password || !req.body.email) return next("No Permission")
 
@@ -48,7 +48,7 @@ app.post("/register", async (req, res, next) => {
   }
 })
 
-app.post("/login", function(req, res, next) {
+app.post("/auth/login", function(req, res, next) {
   passport.authenticate("local", { session: false }, (err, user, info) => {
     console.log(err)
     if (err || !user) {
@@ -76,7 +76,7 @@ app.post("/login", function(req, res, next) {
 })
 
 app.get(
-  "/logout",
+  "/auth/logout",
   passport.authenticate("jwt", { session: false }),
   (req, res) => {
     req.logout()
